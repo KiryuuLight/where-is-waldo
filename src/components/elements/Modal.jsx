@@ -14,7 +14,6 @@ const appear = keyframes`
 
 const ModalWrapper = styled.div`
   display: flex;
-  margin: 0 auto;
   max-width: 600px;
   padding: 40px;
   flex-direction: column;
@@ -24,9 +23,9 @@ const ModalWrapper = styled.div`
   border: 5px solid #fff;
   background: #303a48;
   position: fixed;
-  left: 0;
-  right: 0;
-  top: 25%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 
   p,
   h3 {
