@@ -1927,7 +1927,6 @@ This typically indicates that your device does not have a healthy Internet conne
   100% {opacity : 1};
 `,E$=te.div`
   display: flex;
-  margin: 0 auto;
   max-width: 600px;
   padding: 40px;
   flex-direction: column;
@@ -1937,9 +1936,9 @@ This typically indicates that your device does not have a healthy Internet conne
   border: 5px solid #fff;
   background: #303a48;
   position: fixed;
-  left: 0;
-  right: 0;
-  top: 25%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 
   p,
   h3 {
